@@ -9,10 +9,7 @@
 .hero-img {
   width: 100%;
   height: auto;
-  max-height: 90vh;
-  object-fit: contain;
   display: block;
-  background: var(--off-white);
 }
 
 .banner-img {
@@ -202,7 +199,14 @@ ul {
 .editorial-img-placeholder { height: 380px; }
 .editorial-img-placeholder.short { height: 220px; }
 .product-img-placeholder { height: 340px; }
-.about-hero-img { height: 60vh; min-height: 400px; }
+.about-hero-img-real {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
 
 .cc-watermark {
   font-size: 60px;
